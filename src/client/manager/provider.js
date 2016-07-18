@@ -3,7 +3,7 @@ import qs from 'qs';
 import UUID from 'uuid';
 import React from 'react';
 import createPageBus from 'page-bus';
-import { Provider } from '@kadira/storybook-ui';
+import { Provider } from 'kadira-storybook-ui';
 
 export default class ReactProvider extends Provider {
   constructor() {
